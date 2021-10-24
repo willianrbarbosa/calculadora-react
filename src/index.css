@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./fonts/RobotoMono-Regular.ttf");
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #FFF;
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #56ccf2, #2f80ed); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #56ccf2, #2f80ed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

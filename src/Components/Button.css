@@ -1,0 +1,39 @@
+:root {
+    --bg-button: #F0F0F0;
+    --bd-button: solid 1px #888;
+}
+
+.btn-calc {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--bd-button);
+    border-bottom: var(--bd-button);
+    outline: none;
+}
+
+.btn-calc:active {
+    background-color: #ccc;
+}
+
+.btn-calc-double {
+    grid-column: span 2;
+}
+
+.btn-calc-operation {
+    background-color: #adb5ca;
+    cursor: pointer;
+}
+
+.btn-calc-operation:active {
+    background-color: #adb5cacc;
+}
+
+.btn-calc-equal {
+    background-color: #909cba;
+    cursor: pointer;
+}
+
+.btn-calc-equal:active {
+    background-color: #909cbacc;
+}
